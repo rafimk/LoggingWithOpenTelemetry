@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B1DC5E75-6BF0-4372-9B70-FFBC2A3C4630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingWithOpenTelemetry.Api", "src\LoggingWithOpenTelemetry.Api\LoggingWithOpenTelemetry.Api.csproj", "{1F83FBA6-9235-4A19-86CA-A1F3EE34F2BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F83FBA6-9235-4A19-86CA-A1F3EE34F2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F83FBA6-9235-4A19-86CA-A1F3EE34F2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F83FBA6-9235-4A19-86CA-A1F3EE34F2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F83FBA6-9235-4A19-86CA-A1F3EE34F2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F83FBA6-9235-4A19-86CA-A1F3EE34F2BB} = {B1DC5E75-6BF0-4372-9B70-FFBC2A3C4630}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBB1FD0B-48D6-40AC-BBFF-CDC607A9C3B6}
+	EndGlobalSection
+EndGlobal
